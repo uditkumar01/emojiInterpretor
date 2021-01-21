@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  color: #706fd3;
+}
+
+table,
+tr,
+td,
+th {
+  border: 2px solid transparent;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0.5rem 1rem;
+}
+.table-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+th {
+  background: grey;
+  color: #fff;
+  border-color: transparent;
+}
+table {
+  border: 2px double #706fd3;
+}
+th {
+  border: 2px double grey;
+}
+input[type="text"] {
+  width: 60%;
+  height: 2.5rem;
+}
